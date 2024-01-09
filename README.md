@@ -8,17 +8,25 @@ Step 4: Right click on "Bank.cs" file and click on "include in Project" (if it i
 
 Step 5: Create a database for this project. 
 
-Step 6: Run below Query in MSSQL "New Query"/"Empty File" and run to create a Users table.
+Step 6: Run below Script in MSSQL in "New Query"/"Empty File" and press F5 to create below table.
 
 Script:
+
 CREATE TABLE Users (
+
     AccountID INT IDENTITY(14576432,68),
-	Pin INT PRIMARY KEY,
+    
+    Pin INT PRIMARY KEY,
+    
     FirstName VARCHAR(50),
+    
     LastName VARCHAR(50),
-	Balance decimal,
+    
+    Balance decimal,
+    
     Age INT
 );
+
 (You can watch YT videos on how to create database in MSSQL and connect sql with c# code)
 
 Step 7: Open "Bank.cs" File. ServerName and DatabaseName is empty, add your Server Name and Database Name in those variables.
