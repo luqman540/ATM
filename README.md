@@ -27,7 +27,7 @@ Script:
         Age INT
     );
 
-(You can watch YT videos on how to create database in MSSQL and connect sql with c# code)
+(You can watch YT videos on how to create database in MSSQL and connect sql with c# code if neccessary)
 
 Step 7: Open "Bank.cs" File. ServerName and DatabaseName is empty, add your Server Name and Database Name in those variables.
 
