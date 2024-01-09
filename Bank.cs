@@ -7,7 +7,9 @@ namespace ATM_Code
 {
     class Bank
     {
-        private static string connectionString = @"Data Source=TECHFWD-LUQMAN\SQLEXPRESS;Initial Catalog=ATM;Integrated Security=True";
+        private static string ServerName = "";
+        private static string DatabaseName = "";
+        private static string connectionString = $@"Data Source={ServerName};Initial Catalog={DatabaseName};Integrated Security=True";
         private static int AccountID = 0;
         private static ConsoleColor green = ConsoleColor.Green;
         private static ConsoleColor red = ConsoleColor.Red;
