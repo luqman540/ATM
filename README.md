@@ -8,7 +8,7 @@ Step 4: Right click on "Bank.cs" file and click on "include in Project" (if it i
 
 Step 5: Create a database for this project. 
 
-Step 6: Run below Script in MSSQL in "New Query"/"Empty File" and press F5 to create below table.
+Step 6: Copy and Run below Script in your MSSQL in "New Query"/"Empty File" and press F5 to create table.
 
 Script:
 
