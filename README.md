@@ -12,20 +12,20 @@ Step 6: Run below Script in MSSQL in "New Query"/"Empty File" and press F5 to cr
 
 Script:
 
-CREATE TABLE Users (
+    CREATE TABLE Users (
 
-    AccountID INT IDENTITY(14576432,68),
+        AccountID INT IDENTITY(14576432,68),
     
-    Pin INT PRIMARY KEY,
+        Pin INT PRIMARY KEY,
     
-    FirstName VARCHAR(50),
+        FirstName VARCHAR(50),
     
-    LastName VARCHAR(50),
+        LastName VARCHAR(50),
     
-    Balance decimal,
+        Balance decimal,
     
-    Age INT
-);
+        Age INT
+    );
 
 (You can watch YT videos on how to create database in MSSQL and connect sql with c# code)
 
